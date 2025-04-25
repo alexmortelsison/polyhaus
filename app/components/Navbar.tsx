@@ -5,7 +5,7 @@ import NavAccordion from "./NavAccordion";
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-800/30 backdrop-blur-md">
+    <nav className="bg-gray-500/30 backdrop-blur-md">
       <div className="max-w-[1700px] mx-auto flex justify-between items-center text-white">
         <Link href={"/"}>
           <div className="flex items-center space-x-4 py-4 hover:opacity-80">
