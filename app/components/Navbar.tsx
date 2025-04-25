@@ -16,7 +16,9 @@ export default function Navbar() {
               height={200}
               className="object-cover rounded-full w-20 h-20 shadow"
             />
-            <p className="text-3xl font-semibold tracking-tighter">Polyhaus</p>
+            <p className="text-3xl font-semibold tracking-tighter">
+              Polyhaus Labs Manila
+            </p>
           </div>
         </Link>
         <NavAccordion />
