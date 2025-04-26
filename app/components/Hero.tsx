@@ -5,12 +5,12 @@ export default function Hero() {
   return (
     <div className="">
       <Image
-        src={"/hero.png"}
+        src="/hero.png"
         alt="hero"
         fill
-        className="object-cover w-full h-[500px] -z-50 brightness-60"
+        className="object-cover -z-50 brightness-60"
       />
-      <div className="pt-44 items-center text-center">
+      <div className="pt-72 items-center text-center z-10">
         <h1 className="text-white tracking-tighter text-9xl font-bold w-[800px] mx-auto">
           Design. Build. Fabrication.
         </h1>
