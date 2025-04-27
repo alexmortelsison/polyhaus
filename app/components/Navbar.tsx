@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-500/30 backdrop-blur-md fixed w-full z-0">
+    <nav className="bg-gray-500/30 backdrop-blur-md fixed w-full">
       <div className="max-w-[1700px] mx-auto flex justify-between items-center text-white">
         <Link href={"/"}>
           <div className="flex items-center space-x-4 py-4 hover:opacity-80">
@@ -15,7 +15,7 @@ export default function Navbar() {
               height={200}
               className="object-cover rounded-full w-20 h-20 shadow"
             />
-            <p className="text-3xl font-semibold tracking-tighter">
+            <p className="text-2xl font-bold tracking-tighter">
               Polyhaus Labs Manila.
             </p>
           </div>

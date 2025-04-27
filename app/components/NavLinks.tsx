@@ -15,12 +15,16 @@ const navLinks = [
     name: "About Us",
     href: "/about",
   },
+  {
+    name: "Contact",
+    href: "/contact",
+  },
 ];
 
 export default function NavLinks() {
   const pathName = usePathname();
   return (
-    <div className="flex space-x-4 items-center">
+    <div className="flex space-x-8 items-center">
       {navLinks.map((link) => (
         <div key={link.href} className="">
           <Link
