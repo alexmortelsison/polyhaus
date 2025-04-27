@@ -7,15 +7,15 @@ export default function Navbar() {
     <nav className="bg-gray-500/30 backdrop-blur-md fixed w-full">
       <div className="max-w-[1700px] mx-auto flex justify-between items-center text-white">
         <Link href={"/"}>
-          <div className="flex items-center space-x-4 py-4 hover:opacity-80">
+          <div className="flex items-center py-2 hover:opacity-80">
             <Image
-              src={"/logo.png"}
+              src={"/logo2.png"}
               alt="logo"
-              width={200}
-              height={200}
-              className="object-cover rounded-full w-20 h-20 shadow"
+              width={120}
+              height={120}
+              className="object-cover"
             />
-            <p className="text-2xl font-bold tracking-tighter">
+            <p className="text-2xl font-bold tracking-tighter text-[#a2f7ff]">
               Polyhaus Labs Manila.
             </p>
           </div>

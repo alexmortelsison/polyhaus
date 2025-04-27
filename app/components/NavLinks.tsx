@@ -31,7 +31,7 @@ export default function NavLinks() {
             href={link.href}
             className={`${
               link.href === pathName
-                ? "font-semibold"
+                ? "font-semibold text-[#a2f7ff]"
                 : "text-gray-200 hover:underline underline-offset-4"
             }`}
           >

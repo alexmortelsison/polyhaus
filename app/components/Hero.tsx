@@ -19,7 +19,7 @@ export default function Hero() {
           fabricating with unmatched precision and passion.
         </p>
         <div className="pt-8 max-w-lg mx-auto">
-          <Button className="px-16 bg-white text-gray-700 py-4 cursor-pointer shadow hover:bg-white hover:opacity-90">
+          <Button className="px-16 bg-[#a2f7ff] text-gray-700 py-4 cursor-pointer shadow hover:bg-[#a2f7ff] hover:opacity-90">
             Learn More
           </Button>
         </div>
